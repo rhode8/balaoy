@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body {
+        background-size: cover; 
+        transition: background-image 0.5s ease; 
+    }
+</style>
+<body>
+    <div>
+        <h1 id="head">I'm back</h1>
+        <p id="para">Hi! My name is Bala-oy.</p>
+        <img src="./images/he.jfif" alt="Cat">
+        
+        <h1>Class Expectations</h1>
+        <ul>
+            <li>Ask questions to understand</li>
+            <li>Participate in activity</li>
+            <li>Stay focused</li>
+        </ul>
+        
+        <h1>Subject Expectations</h1>
+        <ul>
+            <li>The subject expects students to engage actively with course materials, complete assignments on time, and participate in discussions.</li>
+            <li>Students are encouraged to ask questions and seek clarification whenever needed.</li>
+            <li>A consistent effort and adherence to deadlines are crucial for success in this subject.</li>
+        </ul>
+        
+        <h1>Future PHP Projects</h1>
+        <ul>
+            <li>Login page</li>
+            <li>Database</li>
+            <li>Security system</li>
+        </ul>
+        
+        <button onclick="toggleBackground()">Click Me</button>
+    </div>
+
+    <script>
+        let isOriginalBackground = true; 
+
+        function toggleBackground() {
+            if (isOriginalBackground) {
+                document.body.style.backgroundImage = "url('SIR.gif')";
+            } else {
+                document.body.style.backgroundImage = "url('YAWA.jfif')";
+            }
+            isOriginalBackground = !isOriginalBackground; 
+        }
+    </script>
+</body>
+</html>
